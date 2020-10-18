@@ -1,0 +1,5 @@
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\TaskExecutionExceptions\bin\Debug\TaskExecutionExceptions.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\TaskExecutionExceptions\bin\Debug\TaskExecutionExceptions.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\TaskExecutionExceptions\obj\Debug\TaskExecutionExceptions.csproj.CoreCompileInputs.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\TaskExecutionExceptions\obj\Debug\TaskExecutionExceptions.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\TaskExecutionExceptions\obj\Debug\TaskExecutionExceptions.pdb

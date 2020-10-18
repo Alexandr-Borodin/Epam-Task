@@ -1,0 +1,6 @@
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\bin\Debug\PointHandlers.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\bin\Debug\PointHandlers.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\obj\Debug\PointHandlers.csproj.CoreCompileInputs.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\obj\Debug\PointHandlers.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\obj\Debug\PointHandlers.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\PointHandlers\obj\Debug\PointHandlers.csprojAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\bin\Debug\Calculators.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\bin\Debug\Calculators.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\obj\Debug\Calculators.csprojAssemblyReference.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\obj\Debug\Calculators.csproj.CoreCompileInputs.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\obj\Debug\Calculators.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Calculators\obj\Debug\Calculators.pdb

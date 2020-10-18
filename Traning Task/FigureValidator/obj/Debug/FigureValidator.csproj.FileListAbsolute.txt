@@ -1,0 +1,9 @@
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\bin\Debug\FigureValidator.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\bin\Debug\FigureValidator.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\obj\Debug\FigureValidator.csprojAssemblyReference.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\obj\Debug\FigureValidator.csproj.CoreCompileInputs.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\obj\Debug\FigureValidator.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\obj\Debug\FigureValidator.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\bin\Debug\PointHandlers.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\bin\Debug\PointHandlers.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureValidator\obj\Debug\FigureValidator.csproj.CopyComplete

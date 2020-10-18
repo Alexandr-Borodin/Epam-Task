@@ -1,0 +1,6 @@
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\bin\Debug\FigureBuildExceptions.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\bin\Debug\FigureBuildExceptions.pdb
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\obj\Debug\FigureBuildExceptions.csprojAssemblyReference.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\obj\Debug\FigureBuildExceptions.csproj.CoreCompileInputs.cache
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\obj\Debug\FigureBuildExceptions.dll
+C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\FigureBuildExceptions\obj\Debug\FigureBuildExceptions.pdb
