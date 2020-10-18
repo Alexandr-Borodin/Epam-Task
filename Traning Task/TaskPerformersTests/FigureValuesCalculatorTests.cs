@@ -1,14 +1,19 @@
-﻿using System;
-using FigureGenerators;
+﻿using FigureGenerators;
 using Figures;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TaskPerformers;
 
 namespace TaskPerformersTests
 {
+    /// <summary>
+    /// Tests for figure values calculator class.
+    /// </summary>
     [TestClass]
     public class FigureValuesCalculatorTests
     {
+        /// <summary>
+        /// Tests GetAllFiguresPerimeter method.
+        /// </summary>
         [TestMethod]
         public void FigureValuesCalculator_GetAllFiguresPerimeter_GivenSomeFigures_ShouldReturnFiguresActualPerimeter()
         {
@@ -24,6 +29,9 @@ namespace TaskPerformersTests
             Assert.AreEqual(expectedResult, actualResult);
         }
 
+        /// <summary>
+        /// Tests GetAllFiguresAveragePerimeter method.
+        /// </summary>
         [TestMethod]
         public void
             FigureValuesCalculator_GetAllFiguresAveragePerimeter_GivenSomeFigures_ShouldReturnFiguresActualAveragePerimeter()
@@ -40,6 +48,9 @@ namespace TaskPerformersTests
             Assert.AreEqual(expectedResult, actualResult);
         }
 
+        /// <summary>
+        /// Tests GetAllFiguresArea method.
+        /// </summary>
         [TestMethod]
         public void FigureValuesCalculator_GetAllFiguresArea_GivenSomeFigures_ShouldReturnFiguresActualArea()
         {
@@ -56,6 +67,9 @@ namespace TaskPerformersTests
             Assert.AreEqual(expectedResult, actualResult);
         }
 
+        /// <summary>
+        /// Tests GetAllFiguresAverageArea method.
+        /// </summary>
         [TestMethod]
         public void
             FigureValuesCalculator_GetAllFiguresAverageArea_GivenSomeFigures_ShouldReturnFiguresActualAverageArea()

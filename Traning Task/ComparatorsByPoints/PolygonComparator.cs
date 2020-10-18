@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using Calculators;
 
 namespace ComparatorsByPoints
 {
+    /// <summary>
+    /// Describes polygon comparator.
+    /// </summary>
     public static class PolygonComparator
     {
+        /// <summary>
+        /// Check if the sides are equal in expected polygon.
+        /// </summary>
+        /// <param name="vertices">Vertices of expected polygon.</param>
+        /// <returns>True if sides are equal, otherwise false.</returns>
         public static bool AreTheSidesEqual(params Point[] vertices)
         {
             double[] sides = SidesCalculator.CalculateSides(vertices);

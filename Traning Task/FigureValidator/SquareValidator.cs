@@ -4,15 +4,29 @@ using PointHandlers;
 
 namespace FigureValidator
 {
+    /// <summary>
+    /// Describes square validator.
+    /// </summary>
     public class SquareValidator : IFigureValidator
     {
+        /// <summary>
+        /// Quadrangle validator.
+        /// </summary>
         private QuadrangleValidator _quadrangleValidator;
 
+        /// <summary>
+        /// Constructor of square validator.
+        /// </summary>
         public SquareValidator()
         {
             _quadrangleValidator = new QuadrangleValidator();
         }
 
+        /// <summary>
+        /// Checks if can create figure from given points.
+        /// </summary>
+        /// <param name="vertices">Expected vertices of figure.</param>
+        /// <returns>True if can create a figure from given points, otherwise false.</returns>
         public bool IsCanCreateFigure(params Point[] vertices)
         {
             if (!WillItMakeASquare(vertices))
@@ -21,6 +35,11 @@ namespace FigureValidator
             return true;
         }
 
+        /// <summary>
+        /// Checks if can create square from given points.
+        /// </summary>
+        /// <param name="vertices">Expected vertices of square.</param>
+        /// <returns>True if can create a square from given points, otherwise false.</returns>
         private bool WillItMakeASquare(params Point[] vertices)
         {
             if (!_quadrangleValidator.IsCanCreateFigure(vertices))
@@ -55,6 +74,12 @@ namespace FigureValidator
             return result;
         }
 
+        /// <summary>
+        /// Checks if two points array contains same points.
+        /// </summary>
+        /// <param name="vertices1">First point array.</param>
+        /// <param name="vertices2">Second point array.</param>
+        /// <returns>True if two points array contains same points, otherwise false.</returns>
         private bool IsItSameVertices(Point[] vertices1, Point[] vertices2)
         {
             bool result = true;

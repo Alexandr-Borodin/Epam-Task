@@ -7,9 +7,15 @@ using TaskPerformers;
 
 namespace TaskPerformersTests
 {
+    /// <summary>
+    /// Tests of figure finder class.
+    /// </summary>
     [TestClass]
     public class FigureFinderTests
     {
+        /// <summary>
+        /// Tests GetLargestAreaFigure method.
+        /// </summary>
         [TestMethod]
         public void FiguresFinder_GetLargestAreaFigure_GivenSomeFigures_ShouldReturnFigureWithLargestArea()
         {
@@ -36,9 +42,15 @@ namespace TaskPerformersTests
             Assert.AreSame(expectedFigure, actualFigure);
         }
 
+        /// <summary>
+        /// Delegates for store figure generators to atomize tests.
+        /// </summary>
+        /// <returns>Random figure.</returns>
         delegate Figure FigureGenerators();
 
-
+        /// <summary>
+        /// Tests GetLargestAveragePerimeterTypeFigure method with random figures by each type.
+        /// </summary>
         [TestMethod]
         public void
             FiguresFinder_GetLargestAveragePerimeterTypeFigure_GivenTwoFiguresByEachType_ShouldReturnTypeOfFigureWithLargestPerimeter()
@@ -73,15 +85,15 @@ namespace TaskPerformersTests
                 {typeof(Rhombus), 0},
                 {typeof(Triangle), 0}
             };
-            // для квадратов
+            // for squares
             dictionary[typeof(Square)] = calculateAveragePerimeterByOneTypeOfFigure(figure, typeof(Square));
-            // для кургов
+            // for circles
             dictionary[typeof(Circle)] = calculateAveragePerimeterByOneTypeOfFigure(figure, typeof(Circle));
-            // для прямоугольников
+            // for rectangles
             dictionary[typeof(Rectangle)] = calculateAveragePerimeterByOneTypeOfFigure(figure, typeof(Rectangle));
-            // для ромбов
+            // for rhomboids
             dictionary[typeof(Rhombus)] = calculateAveragePerimeterByOneTypeOfFigure(figure, typeof(Rhombus));
-            // для треугольников
+            // for triangles
             dictionary[typeof(Triangle)] = calculateAveragePerimeterByOneTypeOfFigure(figure, typeof(Triangle));
 
             double largeArea = 0f;
@@ -103,6 +115,12 @@ namespace TaskPerformersTests
 
         }
 
+        /// <summary>
+        /// Calculates average perimeter by one type of figure in figure array.
+        /// </summary>
+        /// <param name="figures">Figure array.</param>
+        /// <param name="type">Type of figure to calculations.</param>
+        /// <returns>Average perimeter by one type of figure in figure array.</returns>
         private double calculateAveragePerimeterByOneTypeOfFigure(Figure[] figures, Type type)
         {
             double result = 0f;
