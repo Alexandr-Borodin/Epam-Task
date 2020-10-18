@@ -1,15 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Figures;
 using TaskExecutionExceptions;
 
 namespace TaskPerformers
 {
+    /// <summary>
+    /// Describes figures finder.
+    /// </summary>
     public class FiguresFinder
     {
+        /// <summary>
+        /// Gets largest area figure.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <returns>Largest area figure.</returns>
         public static Figure GetLargestAreaFigure(FigureList figureList)
         {
             if(figureList == null)
@@ -33,6 +39,11 @@ namespace TaskPerformers
             return largestAreaFigure;
         }
 
+        /// <summary>
+        /// Gets largest average perimeter type figure.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <returns>Largest average type figure.</returns>
         public static Type GetLargestAveragePerimeterTypeFigure(FigureList figureList)
         {
             Dictionary<Type, double> dictionariesTypesAndPerimeters = new Dictionary<Type, double>();
@@ -48,6 +59,11 @@ namespace TaskPerformers
 
         #region GetLargestAveragePerimeterTypeFigure Fuctions
 
+        /// <summary>
+        /// Finds largest average perimeter type of figure. 
+        /// </summary>
+        /// <param name="dictionariesTypesAndPerimeters">Dictionary with figure types as keys and perimeters as values.</param>
+        /// <returns>Largest average perimeter type of figure.</returns>
         private static Type findLargestAveragePerimeterType(Dictionary<Type, double> dictionariesTypesAndPerimeters)
         {
             Type largestAveragePerimeterFigureType = null;
@@ -66,6 +82,11 @@ namespace TaskPerformers
             return largestAveragePerimeterFigureType;
         }
 
+        /// <summary>
+        /// Adds values in dictionary.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <param name="dictionariesTypesAndPerimeters">Dictionary with figure types as keys and perimeters as values.</param>
         private static void addValuesInDictionary(FigureList figureList,
             Dictionary<Type, double> dictionariesTypesAndPerimeters)
         {
@@ -76,6 +97,12 @@ namespace TaskPerformers
             }
         }
 
+        /// <summary>
+        /// Calculates average perimeter for one type of figure.
+        /// </summary>
+        /// <param name="type">Type of figure.</param>
+        /// <param name="figureList">Figure list.</param>
+        /// <returns>Average perimeter for one type of figure</returns>
         private static double calculateAveragePerimeterForType(Type type, FigureList figureList)
         {
             FigureList figureListByOneType = new FigureList();
@@ -89,6 +116,11 @@ namespace TaskPerformers
             return FigureValuesCalculator.GetAllFiguresAveragePerimeter(figureListByOneType);
         }
 
+        /// <summary>
+        /// Adds keys in dictionary.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <param name="dictionariesTypesAndPerimeters">Dictionary with figure types as keys and perimeters as values.</param>
         private static void addKeysInDictionary(FigureList figureList, Dictionary<Type, double> dictionariesTypesAndPerimeters)
         {
             HashSet<Type> set = new HashSet<Type>();
@@ -106,6 +138,11 @@ namespace TaskPerformers
             FormationTypesWithZeroValuesInDictionary(dictionariesTypesAndPerimeters, types);
         }
 
+        /// <summary>
+        /// Adds types as key and zero as value in dictionary.
+        /// </summary>
+        /// <param name="dictionariesTypesAndPerimeters">Dictionary with figure types as keys and perimeters as values.</param>
+        /// <param name="types">Type of figure.</param>
         private static void FormationTypesWithZeroValuesInDictionary(
             Dictionary<Type, double> dictionariesTypesAndPerimeters, List<Type> types)
         {

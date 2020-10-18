@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Figures;
+﻿using Figures;
 using TaskExecutionExceptions;
 
 namespace TaskPerformers
 {
+    /// <summary>
+    /// Describes figure values calculator.
+    /// </summary>
     public class FigureValuesCalculator
     {
+        /// <summary>
+        /// Gets all figures average perimeter.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <returns>All figures average perimeter.</returns>
         public static double GetAllFiguresAveragePerimeter(FigureList figureList)
         {
             if (figureList == null)
@@ -23,6 +26,11 @@ namespace TaskPerformers
             return result / figureList.Length;
         }
 
+        /// <summary>
+        /// Gets all figures perimeter.
+        /// </summary>
+        /// <param name="figureList">Figure list.</param>
+        /// <returns>All figures perimeter.</returns>
         public static double GetAllFiguresPerimeter(FigureList figureList)
         {
             if (figureList == null)
@@ -41,6 +49,11 @@ namespace TaskPerformers
             return result;
         }
 
+        /// <summary>
+        /// Gets all figures average area.
+        /// </summary>
+        /// <param name="figureList">Figures list.</param>
+        /// <returns>All figures average area.</returns>
         public static double GetAllFiguresAverageArea(FigureList figureList)
         {
             if (figureList == null)
@@ -54,6 +67,11 @@ namespace TaskPerformers
             return result / figureList.Length;
         }
 
+        /// <summary>
+        /// Gets all figures area.
+        /// </summary>
+        /// <param name="figureList">Figures area.</param>
+        /// <returns>All figures area.</returns>
         public static double GetAllFiguresArea(FigureList figureList)
         {
             if (figureList == null)
