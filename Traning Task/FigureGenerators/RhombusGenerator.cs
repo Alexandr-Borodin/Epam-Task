@@ -8,8 +8,15 @@ using Figures;
 
 namespace FigureGenerators
 {
+    /// <summary>
+    /// Describes rhombus generator.
+    /// </summary>
     public class RhombusGenerator
     {
+        /// <summary>
+        /// Gets random rhombus.
+        /// </summary>
+        /// <returns>Random rhombus.</returns>
         public static Rhombus GetRandomRhombus()
         {
             Random random = new Random();

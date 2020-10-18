@@ -22,9 +22,11 @@ namespace Programm
 
             Console.WriteLine("Vertices:");
 
-            foreach (Point vertex in figure.Vertices)
+            int index = 1;
+
+            foreach (Point point in figure.Vertices)
             {
-                Console.WriteLine($"1. ({vertex.X}, {vertex.Y})");
+                Console.WriteLine($"{index++}. ({point.X}, {point.Y})");
             }
         }
     }

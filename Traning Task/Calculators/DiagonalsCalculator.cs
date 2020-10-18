@@ -1,14 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculators
 {
+    /// <summary>
+    /// Describes calculator quadrangle diagonals.
+    /// </summary>
     public static class QuadrangleDiagonalsCalculator
     {
+        /// <summary>
+        /// Gets calculated quadrangle diagonals.
+        /// </summary>
+        /// <param name="vertices">Vertices of expected figure.</param>
+        /// <returns>Array which include calculated quadrangle diagonals.</returns>
         public static double[] CalculateDiagonals(params Point[] vertices)
         {
             const int numberOfDiagonalsInQuadrangle = 2;

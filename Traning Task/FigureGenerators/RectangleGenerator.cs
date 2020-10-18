@@ -9,8 +9,15 @@ using Rectangle = Figures.Rectangle;
 
 namespace FigureGenerators
 {
+    /// <summary>
+    /// Describes rectangle generator.
+    /// </summary>
     public static class RectangleGenerator
     {
+        /// <summary>
+        /// Gets random rectangle.
+        /// </summary>
+        /// <returns>Random rectangle.</returns>
         public static Rectangle GetRandomRectangle()
         {
             Random random = new Random();

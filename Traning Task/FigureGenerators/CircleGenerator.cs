@@ -1,15 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Figures;
 
 namespace FigureGenerators
 {
+    /// <summary>
+    /// Describes circle generator.
+    /// </summary>
     public class CircleGenerator
     {
+        /// <summary>
+        /// Gets random circle.
+        /// </summary>
+        /// <returns>Random circle.</returns>
         public static Circle GetRandomCircle()
         {
             Random random  = new Random();

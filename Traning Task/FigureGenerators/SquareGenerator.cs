@@ -8,8 +8,15 @@ using Figures;
 
 namespace FigureGenerators
 {
+    /// <summary>
+    /// Describes square generator.
+    /// </summary>
     public class SquareGenerator
     {
+        /// <summary>
+        /// Gets random square.
+        /// </summary>
+        /// <returns>Random square.</returns>
         public static Square GetRandomSquare()
         {
             Random random = new Random();

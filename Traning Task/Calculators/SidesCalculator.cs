@@ -1,14 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculators
 {
+    /// <summary>
+    /// Describes figure sides calculator.
+    /// </summary>
     public static class SidesCalculator
     {
+
+        /// <summary>
+        /// Gets array of calculated sides.
+        /// </summary>
+        /// <param name="vertices">Vertices of expected figure.</param>
+        /// <returns>Array of calculated sides.</returns>
         public static double[] CalculateSides(params Point[] vertices)
         {
             double[] sides = new double[vertices.Length];

@@ -1,19 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using Calculators;
 using FigureBuildExceptions;
 using FigureValidator;
 
 namespace Figures
 {
+    /// <summary>
+    /// Describes abstract essence polygon.
+    /// </summary>
     public abstract class Polygon: Figure
     {
+        /// <summary>
+        /// Stores sides of polygon.
+        /// </summary>
         public double[] Sides;
 
+        /// <summary>
+        /// Override perimeter property which stores perimeter of polygon.
+        /// </summary>
         public override double Perimeter
         {
             get
@@ -29,8 +33,15 @@ namespace Figures
             }
         }
 
+        /// <summary>
+        /// Validator of polygon.
+        /// </summary>
         private static PolygonValidator _validator = new PolygonValidator();
 
+        /// <summary>
+        /// Constructor of polygon.
+        /// </summary>
+        /// <param name="vertices">Expected vertices of polygon.</param>
         protected Polygon(params Point[] vertices) : base(vertices)
         {
             if(!IsValid(vertices))
@@ -39,11 +50,20 @@ namespace Figures
             Sides = SidesCalculator.CalculateSides(vertices);
         }
 
+        /// <summary>
+        /// Hidden method to check if valid expected figure from vertices.
+        /// </summary>
+        /// <param name="vertices">Expected vertices of polygon.</param>
+        /// <returns>True if can create polygon from this point, otherwise false.</returns>
         public new static bool IsValid(params Point[] vertices)
         {
             return _validator.IsCanCreateFigure(vertices);
         }
 
+        /// <summary>
+        /// Override ToString method.
+        /// </summary>
+        /// <returns>String "Polygon".</returns>
         public override string ToString()
         {
             return "Polygon";

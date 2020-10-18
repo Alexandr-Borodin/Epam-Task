@@ -3,7 +3,7 @@
 namespace TaskExecutionExceptions
 {
     /// <summary>
-    /// Describe task execution exception
+    /// Describes task execution exception.
     /// </summary>
     public class TaskExecutionException : Exception
     {

@@ -170,12 +170,14 @@ namespace Programm
         {
             string userInput;
 
+            int result;
+
             do
             {
                 userInput = Console.ReadLine();
-            } while (Regex.IsMatch(userInput, patternForIntValues) || String.IsNullOrWhiteSpace(userInput));
 
-            int result = int.Parse(userInput);
+            } while (!Int32.TryParse(userInput, out result) || Regex.IsMatch(userInput, patternForIntValues));
+
 
             return result;
         }

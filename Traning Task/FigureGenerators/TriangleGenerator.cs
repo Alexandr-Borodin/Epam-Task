@@ -9,8 +9,15 @@ using FigureValidator;
 
 namespace FigureGenerators
 {
+    /// <summary>
+    /// Describes triangle generator.
+    /// </summary>
     public static class TriangleGenerator
     {
+        /// <summary>
+        /// Gets random triangle.
+        /// </summary>
+        /// <returns>Random triangle.</returns>
         public static Triangle GetRandomTriangle()
         {
             Random random = new Random();
