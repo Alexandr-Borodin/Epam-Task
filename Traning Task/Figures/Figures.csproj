@@ -54,13 +54,13 @@
     <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculators\FigureCalculators.csproj">
-      <Project>{b30147be-aa06-4811-b9ac-5832f72da2ee}</Project>
-      <Name>FigureCalculators</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FigureBuildExceptions\FigureBuildExceptions.csproj">
       <Project>{a7aeb9b0-c6da-45ae-8ef1-73ad2ecaf94a}</Project>
       <Name>FigureBuildExceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FigureCalculators\FigureCalculators.csproj">
+      <Project>{b30147be-aa06-4811-b9ac-5832f72da2ee}</Project>
+      <Name>FigureCalculators</Name>
     </ProjectReference>
     <ProjectReference Include="..\FigureValidator\FigureValidators.csproj">
       <Project>{74124487-99ca-4df0-883e-e3aebc57540e}</Project>

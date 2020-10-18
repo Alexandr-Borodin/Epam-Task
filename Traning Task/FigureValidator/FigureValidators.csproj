@@ -54,11 +54,7 @@
     <Compile Include="TriangleValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculators\FigureCalculators.csproj">
-      <Project>{b30147be-aa06-4811-b9ac-5832f72da2ee}</Project>
-      <Name>FigureCalculators</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Checker\ComparatorsByPoints.csproj">
+    <ProjectReference Include="..\ComparatorsByPoints\ComparatorsByPoints.csproj">
       <Project>{61df7e71-e2d6-4bb7-884a-ef8d9b98821d}</Project>
       <Name>ComparatorsByPoints</Name>
     </ProjectReference>

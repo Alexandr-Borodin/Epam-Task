@@ -1,9 +1,0 @@
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\bin\Debug\Checker.dll
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\bin\Debug\Checker.pdb
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\bin\Debug\Calculators.dll
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\bin\Debug\Calculators.pdb
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\obj\Debug\Comparators.csprojAssemblyReference.cache
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\obj\Debug\Comparators.csproj.CoreCompileInputs.cache
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\obj\Debug\Comparators.csproj.CopyComplete
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\obj\Debug\Checker.dll
-C:\Users\lenovo.DESKTOP-G6DEO4R\Desktop\Epam\Task\Traning Task\Checker\obj\Debug\Checker.pdb

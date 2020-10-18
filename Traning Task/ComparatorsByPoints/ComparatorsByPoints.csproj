@@ -47,7 +47,7 @@
     <Compile Include="QuadrangleComparator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Calculators\FigureCalculators.csproj">
+    <ProjectReference Include="..\FigureCalculators\FigureCalculators.csproj">
       <Project>{b30147be-aa06-4811-b9ac-5832f72da2ee}</Project>
       <Name>FigureCalculators</Name>
     </ProjectReference>
